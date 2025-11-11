@@ -17,6 +17,8 @@ body {
     
     /* Opcional: Distribuir el espacio entre los elementos */
     justify-content: space-around; 
+    grid-template-rows: 4, 1fr;
+    grid-template-columns: 4, 1fr;
     
 }
 
@@ -31,6 +33,12 @@ body {
     line-height: 150px; /* Para centrar el texto verticalmente */
     font-size: 1.2em;
     font-weight: bold;
+    color: blueviolet;
+    background-color: aquamarine;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    
+
     
 }
 .caja2 {
@@ -43,6 +51,8 @@ body {
     line-height: 150px; /* Para centrar el texto verticalmente */
     font-size: 1.2em;
     font-weight: bold;
+    grid-column: 2/4;
+    grid-row: 2/4;
   
 }
 .caja3 {
