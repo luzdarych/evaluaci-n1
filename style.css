@@ -1,0 +1,9 @@
+.contenedor{
+    width: 400px;
+    height:400px ;
+    border: 2px solid #000000;
+    display: grid;
+    grid-template-columns: 2, 1fr;
+    grid-template-rows:2, 1fr ;
+    margin: 30 px auto;
+}
