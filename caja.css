@@ -1,0 +1,17 @@
+.caja{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    border-color: blue;
+    height: 400px;
+}
+.elemento{
+    border-color: black;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    color: rgb(216, 175, 175) solid;
+    background-color: rgb(226, 195, 195);
+    height: 100px;
+    text-align: center;
+    align-content: center;
+}
